@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/eng/w/wps100020/EE4304/project/verilog/multicycle/harvard/harvard/mcc_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mcc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/mcc_tb/program_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">program_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/clock_delayed" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_delayed</obj_property>
+      <obj_property name="ObjectShortName">clock_delayed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/pc_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/ireg_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ireg_enable</obj_property>
+      <obj_property name="ObjectShortName">ireg_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/imem/word_index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word_index[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word_index[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/imem/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/imem/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[28:0]</obj_property>
+      <obj_property name="ObjectShortName">data[28:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/imem_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imem_data[28:0]</obj_property>
+      <obj_property name="ObjectShortName">imem_data[28:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/CPUcontrol/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/iregister/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[28:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[28:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/CPUcontrol/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/CPUcontrol/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[28:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[28:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/immediate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immediate[11:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/alu_out_buf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out_buf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_buf[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/dmem/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/dmem/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/mem_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read</obj_property>
+      <obj_property name="ObjectShortName">mem_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/mem_select" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_select</obj_property>
+      <obj_property name="ObjectShortName">mem_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/dmem/cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/mem_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/mregister/in_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/mregister/out_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/user_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">user_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/regfile/regfile[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1,15:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[1,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/regfile/regfile[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2,15:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[2,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/dmem/ram_memory[48]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[48,7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_memory[48,7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/CPUcontrol/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcc_tb/uut/next_pc_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_pc_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">next_pc_addr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
